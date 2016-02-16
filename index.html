@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BioSENSE</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/biosignals.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/css_002.css" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <link href="css/css_003.css" rel="stylesheet" type="text/css">
+    <link href="css/css_004.css" rel="stylesheet" type="text/css">
+    <script type='text/javascript' id='lt_ws' src='http://localhost:56509/socket.io/lighttable/ws.js'></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#">About</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#people">People</a>
+                    </li>
+                    <li class="">
+                        <a href="https://berkeley-biosense.tumblr.com">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">BioSENSE</div>
+                <div class="intro-lead-in">a socio-physiological computing initiative at UC Berkeley<br><br></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-muted">
+                    Biosensing technologies are finding their way beyond
+ wristwatches and eyeglasses, into clothing, furniture, personal
+robots, and ingestibles. They offer opportunities for advances in our
+physical, emotional, and social wellbeing, but the sensitivity of
+personal biodata also raises important stewardship challenges. The
+BioSENSE Group at UC Berkeley brings together a multi-disciplinary team
+to shape the future of biosensing and biosignaling.<br><br></p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Frontiers</h4>
+                    <p class="text-muted">health, wellness, and human augmentation</p>
+                    <p class="text-muted">education and learning</p>
+                    <p class="text-muted">affective and social computing</p>
+                    <p class="text-muted">ambient intelligence and anticipatory computing</p>
+                    <p class="text-muted">art, expression, and aesthetics</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Technologies</h4>
+                    <p class="text-muted">sensing modalities and platforms</p>
+                    <p class="text-muted">signal acquisition and processing</p>
+                    <p class="text-muted">data analytics and visualization</p>
+                    <p class="text-muted">interface and interaction design</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Stewardship</h4>
+                    <p class="text-muted">security and privacy</p>
+                    <p class="text-muted">ethics, law, and policy</p>
+                    <p class="text-muted">agency, consent, and data ownership</p>
+                    <p class="text-muted">education</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section id="projects" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">Projects</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- passthoughts -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="http://people.ischool.berkeley.edu/~chuang/passthoughts/" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/brain.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Passthoughts</h4>
+                        <p class="text-muted">Authentication using brainwaves</p>
+                    </div>
+                </div>
+
+                <!-- SHDA -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="http://www.ischool.berkeley.edu/courses/i290-shda" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/shda.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Sensors, Humans, Data, Apps</h4>
+                        <p class="text-muted">Hands-on course</p>
+                    </div>
+                </div>
+
+
+                <!-- Synchronized dataset -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="http://biosense.berkeley.edu/indra_mids_5_15_dlpage/" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/color-count.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Synchronized brainwave recordings</h4>
+                        <p class="text-muted">Collecting neurological data from multipe people simultaneously</p>
+                    </div>
+                </div>
+
+
+                <!-- quanitization -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/quantization.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Physiological Signal Classification</h4>
+                        <p class="text-muted">Improving the automatic detection of biosignals like EEG.</p>
+                    </div>
+                </div>
+
+            <!-- sharing practices -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/ethics-thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Data sharing practices</h4>
+                        <p class="text-muted">Investigating ethical data management and information sharing practices</p>
+                    </div>
+                </div>
+
+            <!-- course -->
+                   <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://blogs.ischool.berkeley.edu/i290-rib-f15/" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/re-imagining.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Re-imagining the Body: Design, Data, Values &amp; Intersectionality</h4>
+                        <p class="text-muted">Critical approaches to design and the body</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- People Section -->
+    <section id="people" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">People</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+
+            <!-- faculty -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/john2.jpg" class="img-responsive  " alt="">
+                        <h4>John Chuang</h4>
+                        <p class="text-muted">Co-Director</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/tapan.jpg" class="img-responsive  " alt="">
+                        <h4>Tapan Parikh</h4>
+                        <p class="text-muted">Co-Director</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/deirdre.jpg" class="img-responsive  " alt="">
+                        <h4>Deirdre Mulligan</h4>
+                        <p class="text-muted">Faculty</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/kimiko.jpg" class="img-responsive  " alt="">
+                        <h4>Kimiko Ryokai</h4>
+                        <p class="text-muted">Faculty</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/coye.jpg" class="img-responsive  " alt="">
+                        <h4>Coye Cheshire</h4>
+                        <p class="text-muted">Faculty</p>
+                    </div>
+                </div>
+                 <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/steve.png" class="img-responsive  " alt="">
+                        <h4>Steve Weber</h4>
+                        <p class="text-muted">Faculty</p>
+                    </div>
+
+            </div>
+               <!-- postdoc -->
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/thomas.jpg" class="img-responsive  " alt="">
+                        <h4>Thomas Maillart</h4>
+                        <p class="text-muted">Postdoc</p>
+                    </div>
+                </div>
+
+            <!-- students -->
+
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/noura.jpg" class="img-responsive  " alt="">
+                        <h4>Noura Howell</h4>
+                        <p class="text-muted">PhD Student</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/nick.jpg" class="img-responsive  " alt="">
+                        <h4>Nick Merrill</h4>
+                        <p class="text-muted">PhD Student</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/meena.jpg" class="img-responsive  " alt="">
+                        <h4>Meena Natarajan</h4>
+                        <p class="text-muted">PhD Student</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/elaine.jpg" class="img-responsive  " alt="">
+                        <h4>Elaine Sedenberg</h4>
+                        <p class="text-muted">PhD Student</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/jen.jpg" class="img-responsive  " alt="">
+                        <h4>Jen King</h4>
+                        <p class="text-muted">PhD Student</p>
+                    </div>
+                </div>
+                           <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/max.jpg" class="img-responsive  " alt="">
+                        <h4>Max Curran</h4>
+                        <p class="text-muted">PhD Student</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/rena.jpg" class="img-responsive  " alt="">
+                        <h4>Rena Coen</h4>
+                        <p class="text-muted">MIMS Student</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/ppl/jong-kai.jpg" class="img-responsive  " alt="">
+                        <h4>Jong-Kai Yang</h4>
+                        <p class="text-muted">MIMS Student</p>
+                    </div>
+                </div>
+            </div>
+
+    </div></section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright © UC Berkeley 2015</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+ <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Physiological Signal Classification</h2>
+                            <p>Bio-signals vary widely between individuals, and
+                               their expression often changes within individuals over
+                               time. Typically, brain computer interfaces (BCI)
+                               serve as an excellent example of this phenomenon.
+                               Regular calibration and re-calibration are critical to
+                               achieving decent BCI accuracy.</p>
+
+                               <p>In order to move BCI into broader consumer
+                               markets, systems must work with more mobile
+                               sensing equipment and wearable computing platforms.
+                               Mobile device architectures limit computational
+                               complexity relative to lab-based systems, and
+                               ergonomic considerations limit the number and quality
+                               of sensors on the device. In this study, we simulate a simple brain-computer
+                               interface using signals acquired from a low-cost, mobile
+                               electroencephalograph (EEG) device with a single
+                               electrode. Using a BCI that takes mental gestures
+                               as input, we investigate how the processing of biosignals
+                               and the strategy for user calibration can impact
+                               the computational performance, reliability and
+                               calibration time of a physiological signal classification
+                               system. We use the entire frequency spectrum, rather than the limited, traditional EEG bands, in order to include potentially informative signals from muscular or other activity.</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Data Sharing Practices</h2>
+                            <p class="item-intro text-muted">The proliferation of sensors and Internet-enabled devices comes with unprecedented
+                                power to analyze aspects of behavior, health, and community patterns over extended periods of time. As users
+                                increasingly opt-in to using smart devices and biosensing wearables, private companies will cultivate a continuous
+                                and systematic repository of information rich and sensitive data. The ability to combine data streams across devices for
+                                unforeseen uses holds the potential to create new—and often invisible—surveillance regimes.</p>
+                            <p>
+                                Data surveillance systems, like those within public health, harvest the power of large-scale reporting
+                                in a way that promotes public good uses, individual privacy and autonomy, information sharing between
+                                diverse organizations, community input, and increases the research utility. As these sensor systems mature,
+                                we propose the early integration of practices that promote responsible data management and sharing. We discuss
+                                design and management practices found within public health, and apply ethical and privacy principles to the unique
+                                challenges and opportunities of privately held user data. We propose elements of transparency, information sharing enabled through dynamic informed consent and limited access protocols, and incentives to promote adoption across organizations. Enabling the public good potential of these distributed data systems will promote a wider range of stakeholder activities.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery_002.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+
+
+</body></html>
