@@ -1,9 +1,10 @@
 ---
-title: Biosignals as social cues
+title: Using color-changing fabrics to explore biosignals as social cues 
 author: Noura Howell, Laura Devendorf and Kimiko Ryokai
 date: 2016-05-07
 template: article.jade
 ---
+
 
 Prevailing trends in biosensing promote individualistic, algorithmically defined emotions, wellness, and self-improvement. My stance is that this alone is far too limiting. Designs should embrace and explore a multiplicity of values, experiences, and interpretations. Interpretation, moreover, is inextricable from representation, and materiality shapes information representation. So, drawing from an alternative lens that foregrounds contextually situated interpretation, I design biosensing representations with properties unlike those of typical data visualizations or screens by leveraging the physical properties of dynamic materials, such as the slow, non-light-emitting color changes of thermochromic fabrics. Embedding these displays in clothing brings in associations around personal style, self-presentation, and the body, which may further shift interpretations.
 

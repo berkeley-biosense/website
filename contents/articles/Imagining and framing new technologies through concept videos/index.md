@@ -1,6 +1,6 @@
 ---
 title: Imagining new technologies through concept videos
-author: Richmond Wong, Dierdre Mulligan
+author: Richmond Wong and Deirdre Mulligan
 date: 2016-05-07
 template: article.jade
 ---
