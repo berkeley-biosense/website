@@ -5,6 +5,7 @@
     "owner": "BioSENSE",
     "description": "a socio-physiological computing initiative at UC Berkeley"
   },
+  "filenameTemplate": "/:title.html",
   "plugins": [
     "./plugins/paginator.coffee"
   ],
