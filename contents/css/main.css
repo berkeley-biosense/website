@@ -7,7 +7,7 @@ body {
   font-family: sans-serif;
   font-size: 21px;
   line-height: 1.52;
-  background-color: #f8f8f8;
+  background-color: #fffffe;
   text-rendering: optimizeLegibility;
 }
 
@@ -76,7 +76,6 @@ blockquote {
 
 hr {
   border: 0;
-  border-top: 1px dashed #d2d2d2;
   height: 0;
   margin: 1.6em 0;
 }
@@ -84,12 +83,12 @@ hr {
 /* page header */
 
 .header {
-  margin: 3em 0 5em;
+  margin: 3em 0 -1.1em;
 }
 
+
 .header h1 {
-  font-size: 2.6em;
-  text-align: center;
+  font-size: 1.5em;
   font-weight: 700;
   margin: 0;
 }
@@ -110,9 +109,8 @@ hr {
 }
 
 .header .description {
-  font-size: 1.2em;
+  font-size: 1.0em;
   font-style: italic;
-  text-align: center;
   margin-top: -0.3em;
 }
 
@@ -125,6 +123,11 @@ body.article-detail > header h1 {
 
 body.article-detail > header {
   margin-bottom: 3em;
+}
+
+.about {
+  padding: 1em 0em;
+  font-size: 0.7em;
 }
 
 /* page footer */
@@ -145,19 +148,6 @@ footer .nav a {
   text-decoration: none;
 }
 
-.about {
-  border-top: 1px dashed #d2d2d2;
-  padding: 2.2em 3em;
-  font-size: 0.7em;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  -ms-column-count: 3;
-  column-count: 3;
-  -webkit-column-gap: 2em;
-  -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
-  column-gap: 2em;
-}
 
 footer .copy {
   text-align: center;
@@ -176,13 +166,9 @@ footer .copy, footer .copy a {
   margin: 3em 0 4em;
 }
 
-.article header {
-  border-top: 1px dashed #d2d2d2;
-}
 
 .article header h2 {
   font-style: italic;
-  text-align: center;
   font-weight: 400;
   margin: 0.8em 0;
   font-size: 1.4em;
@@ -193,13 +179,10 @@ footer .copy, footer .copy a {
 }
 
 .article header .date {
-  text-align: center;
-  font-size: 0.8em;
-  margin-top: -0.7em;
+  font-size: 0.6em;
 }
 
 .article header .date span {
-  background-color: #f8f8f8;
   padding: 0 0.7em;
 }
 
@@ -220,8 +203,6 @@ footer .copy, footer .copy a {
 
 .more, .date {
   font-family: 'Merriweather', serif;
-  font-variant: small-caps;
-  text-transform: lowercase;
   font-weight: 400;
   text-rendering: auto;
   letter-spacing: 1px;
@@ -421,7 +402,5 @@ code.lang-markdown .bullet {
     margin: 1em 0;
   }
 
-  footer .about p {
-    margin-bottom: 1em;
-  }
+
 }

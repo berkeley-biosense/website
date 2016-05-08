@@ -21,8 +21,8 @@ html(lang='en')
             h1
               a(href=locals.url)= locals.name
             p.description= locals.description
-    section.about
-      !=contents['about.md'].html
+        section.about
+          !=contents['about.md'].html
     div#content
       div.content-wrap
         block content
