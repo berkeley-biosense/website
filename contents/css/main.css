@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 21px;
   line-height: 1.52;
   background-color: #fffffe;
@@ -83,7 +83,7 @@ hr {
 /* page header */
 
 .header {
-  margin: 3em 0 -1.1em;
+  margin: 3em 0 0em;
 }
 
 
@@ -99,11 +99,9 @@ hr {
 }
 
 .header .author {
-  font-family: 'Merriweather', serif;
   font-variant: small-caps;
   text-transform: lowercase;
   text-rendering: auto;
-  text-align: center;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -163,7 +161,7 @@ footer .copy, footer .copy a {
 /* article */
 
 .article {
-  margin: 3em 0 4em;
+  margin: 1em 0 2em;
 }
 
 
@@ -171,7 +169,7 @@ footer .copy, footer .copy a {
   font-style: italic;
   font-weight: 400;
   margin: 0.8em 0;
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
 .article header h2 a {

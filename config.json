@@ -2,7 +2,7 @@
   "locals": {
     "url": "http://localhost:8080",
     "name": "BioSENSE",
-    "owner": "Someone",
+    "owner": "BioSENSE, UC Berkeley",
     "description": "a socio-physiological computing initiative at UC Berkeley"
   },
   "plugins": [

@@ -2,6 +2,8 @@
 extends layout
 
 block content
+  section.about
+    !=contents['about.md'].html
   include author
   each article in articles
     article.article.intro
