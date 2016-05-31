@@ -2,7 +2,7 @@
 
 Lab page for [biosense.berkeley.edu](http://biosense.berkeley.edu)
 
-## Changing site style style
+## Editing website styles
 
 To edit the style, just edit the files in `dist/css`. Save them, and issue a PR.
 
