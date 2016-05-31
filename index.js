@@ -14,6 +14,7 @@ var config = require('./config.js')
 console.log('generating project pages...')
 var projectPageTemplateFile = joinPath(__dirname, 'templates', 'project.html')
 function buildProjectPage (project) {
+  process.stdout.write(project.title)
   var projectPath = relativePath(project.url)
   // (destructively) make a path in dist/
   var distProjectPath = joinPath(__dirname, 'dist', project.url)
@@ -32,19 +33,20 @@ function buildProjectPage (project) {
   // write index html to the new path
   var indexHTMLPath = joinPath(distProjectPath, 'index.html')
   write(indexHTMLPath, output)
+  process.stdout.write('.....done!\n')
 }
 config.projects.map(buildProjectPage)
+
 console.log('bundling template files...')
 execSync('bundledown templates/index.html -o bundled.html') 
 var templateFile = relativePath('bundled.html')
 var template = swig.compileFile(templateFile)
 var output = template(config)
 
-console.log('generated file, outputting index.html..')
+console.log('outputting index.html..')
 var outputFile = relativePath('dist/index.html')
 write(outputFile, output)
 
 console.log('lab site generated! cleaning up..')
 execSync('rm bundled.html')
-console.log('done!')
 printLine('.')

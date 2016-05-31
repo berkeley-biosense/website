@@ -2,6 +2,8 @@ This paper explores corporate concept videos frame new and emergent technologies
 
 ## Publications
 
+Richmond Y. Wong and Deirdre K. Mulligan. 2016. When a Product Is Still Fictional: Anticipating and Speculating Futures through Concept Videos. *Proceedings of the ACM Conference on Designing Interactive Systems (DIS '16)*. [\[PDF\]](assets/Wong_Mulligan_When_a_Product_is_Still_Fictional_DIS2016.pdf).
+
 ## Other links
 
 [Glass concept video](https://www.youtube.com/watch?v=9c6W4CCU9M44)

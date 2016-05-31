@@ -22,7 +22,7 @@ module.exports = {
       url: 'projects/ear-eeg',
     },
     {
-      title: 'The social meaning of a heartrate in context',
+      title: 'The social meaning of an elevated heartrate',
       authors: [ 'Nick Merrill', 'Coye Cheshire'],
       url: 'projects/trust-your-heart',
     },
@@ -31,7 +31,7 @@ module.exports = {
   people: [
     {
       name: 'John Chuang',
-      title: 'Co-Director',
+      title: 'Director',
       img: 'people-photos-small/john2.jpg',
     },
     {
@@ -90,7 +90,7 @@ module.exports = {
       img: 'people-photos-small/jen.jpg',
     },
     {
-      name: 'Max Curarn',
+      name: 'Max Curran',
       title: 'PhD Student',
       img: 'people-photos-small/max.jpg',
     },
