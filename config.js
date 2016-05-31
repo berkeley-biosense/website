@@ -1,5 +1,33 @@
 module.exports = {
 
+  projects: [
+    {
+      title: 'Biosignals as social cues: Designing color-changing clothing displays to probe alternative representations of physiological signals',
+      authors: [ 'Noura Howell', 'Laura Devendorf', 'Kimiko Ryokai' ],
+      url: 'projects/color-changing-fab/',
+    },
+    {
+      title: 'Imagining and framing new technologies through concept videos',
+      authors: [ 'Richmond Wong', 'Deirdre Mulligan'],
+      url: 'projects/concept-videos/',
+    },
+    {
+      title: 'Robots and data privacy',
+      authors: [ 'Elaine Sedenberg', 'John Chuang', 'Deirdre Mulligan' ],
+      url: 'projects/robots-data-privacy/',
+    },
+    {
+      title: 'Brainwave authentication and brain-computer interface using in-ear EEG',
+      authors: [ 'Max Curran', 'Nick Merrill', 'Jong-Kai Yang', 'John Chuang' ],
+      url: 'projects/ear-eeg',
+    },
+    {
+      title: 'The social meaning of a heartrate in context',
+      authors: [ 'Nick Merrill', 'Coye Cheshire'],
+      url: 'projects/trust-your-heart',
+    },
+  ],
+
   people: [
     {
       name: 'John Chuang',
@@ -30,6 +58,11 @@ module.exports = {
       name: 'Thomas Maillart',
       title: 'Postdoc',
       img: 'img/ppl/thomas.jpg',
+    },
+    {
+      name: 'Daniel Perry',
+      title: 'Postdoc',
+      img: 'img/ppl/daniel.png',
     },
     {
       name: 'Noura Howell',
@@ -70,11 +103,6 @@ module.exports = {
       name: 'Jong-Kai Yang',
       title: 'MIMS Student',
       img: 'img/ppl/jong-kai.jpg',
-    },
-    {
-      name: 'Rena Coen',
-      title: 'MIMS Student',
-      img: 'img/ppl/rena.jpg',
     },
   ],
 

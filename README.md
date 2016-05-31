@@ -1,6 +1,6 @@
 # berkeley biosense webpage
 
-find us at [biosense.berkeley.edu](http://biosense.berkeley.edu)
+Find us at [biosense.berkeley.edu](http://biosense.berkeley.edu)
 
 ## install
 
@@ -10,13 +10,19 @@ npm install
 
 ## building
 
+Take a look at `config.js` for content. 
+
+For templates, look at `templates/index.html`
+
+If you want to start making modifications
+
 ```
 npm run dev
 ```
 
-site will be at http://localhost:8000
+Site will be at http://localhost:8000
 
-edit away - it will rebuild on any saved changes (though you'll have to refresh the web browser)
+Edit away - it will rebuild on any saved changes (though you'll have to refresh the web browser)
 
 
 ## license

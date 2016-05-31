@@ -1,13 +1,21 @@
+var printLine = character => console.log(new Array(42).join(character))
+printLine('.')
+console.log('starting up...')
 var swig  = require('swig')
+var execSync = require('child_process').execSync
 function relativePath (p) {
   return require('path').join(__dirname, p)
-} 
-var templateFile = relativePath('templates/index.html')
+}
+console.log('bundling template files')
+execSync('bundledown templates/index.html -o bundled.html') 
+var templateFile = relativePath('bundled.html')
 var template = swig.compileFile(templateFile)
 var output = template(require('./config.js'))
 console.log('generated file, outputting')
 var fs = require('fs')
 var outputFile = relativePath('dist/index.html')
 fs.writeFileSync(outputFile, new Buffer(output))
-console.log
-console.log('generated!')
+console.log('generated! cleaning up..')
+execSync('rm bundled.html')
+console.log('done!')
+printLine('.')
