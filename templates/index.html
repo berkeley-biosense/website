@@ -17,11 +17,6 @@
     <link href="css/biosignals.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="css/css_002.css" rel="stylesheet" type="text/css">
-    <link href="css/css.css" rel="stylesheet" type="text/css">
-    <link href="css/css_003.css" rel="stylesheet" type="text/css">
-    <link href="css/css_004.css" rel="stylesheet" type="text/css">
-    <script type='text/javascript' id='lt_ws' src='http://localhost:56509/socket.io/lighttable/ws.js'></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -90,28 +85,24 @@
     <!-- Projects Grid Section -->
     <section id="projects" class="bg-light-gray">
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="section-heading">Projects</h2>
-                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
                 </div>
             </div>
 
-            <div class="row">
-
-                <!-- passthoughts -->
-                {% for project in projects %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="{{ project.url }}" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-caption">
-                        <h4>{{ project.title }}</h4>
-                        <p class="text-muted">{{ project.authors.join(', ') }}</p>
-                    </div>
-                    </a>
+            {% for project in projects %}
+            <div class="portfolio-item">
+                <div class="portfolio-caption">
+                  <a href="{{ project.url }}" class="portfolio-link" data-toggle="modal">
+                    <h4>{{ project.title }}</h4>
+                  </a>
+                  <p class="text-muted">{{ project.authors.join(', ') }}</p>
                 </div>
-                {% endfor %}
-
             </div>
+            {% endfor %}
+
         </div>
     </section>
 
