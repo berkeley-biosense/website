@@ -1,0 +1,7 @@
+USAGE:
+
+  runwatch [files] -r "[command-to-run]"
+
+ex,
+
+  runwatch **/*.js -r "tape test/*.js"

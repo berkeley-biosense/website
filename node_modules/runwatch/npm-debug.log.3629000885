@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ffff/.nvm/versions/node/v5.7.0/bin/node',
+1 verbose cli   '/Users/ffff/.nvm/versions/node/v5.7.0/bin/npm',
+1 verbose cli   'start',
+1 verbose cli   '/Users/ffff/Projects/watchrun/test/program',
+1 verbose cli   '-c',
+1 verbose cli   'bash /Users/ffff/Projects/watchrun/test/program' ]
+2 info using npm@3.7.5
+3 info using node@v5.7.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle @~prestart: @
+6 silly lifecycle @~prestart: no script for prestart, continuing
+7 info lifecycle @~start: @
+8 verbose lifecycle @~start: unsafe-perm in lifecycle true
+9 verbose lifecycle @~start: PATH: /Users/ffff/.nvm/versions/node/v5.7.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/ffff/Projects/watchrun/node_modules/.bin:/Users/ffff/.nvm/versions/node/v5.7.0/bin:/Users/ffff/.nvm/versions/node/v5.7.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/ffff/Projects/watchrun/node_modules/.bin:/Users/ffff/.nvm/versions/node/v5.7.0/bin:/Users/ffff/.nvm/versions/node/v5.7.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/ffff/Projects/watchrun/node_modules/.bin:/Users/ffff/.nvm/versions/node/v5.7.0/bin:/Users/ffff/.nvm/versions/node/v5.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin:/Users/ffff/bin:/usr/local/go/bin:/Users/ffff/gocode/bin:/Users/ffff/Projects/watchrun/node_modules/npm-watch/node_modules/.bin
+10 verbose lifecycle @~start: CWD: /Users/ffff/Projects/watchrun
+11 silly lifecycle @~start: Args: [ '-c',
+11 silly lifecycle   './cmd.js "/Users/ffff/Projects/watchrun/test/program" "bash /Users/ffff/Projects/watchrun/test/program"' ]
+12 verbose stack Error: write EPIPE
+12 verbose stack     at exports._errnoException (util.js:856:11)
+12 verbose stack     at WriteWrap.afterWrite (net.js:767:14)
+13 verbose cwd /Users/ffff/Projects/watchrun
+14 error Darwin 15.3.0
+15 error argv "/Users/ffff/.nvm/versions/node/v5.7.0/bin/node" "/Users/ffff/.nvm/versions/node/v5.7.0/bin/npm" "start" "/Users/ffff/Projects/watchrun/test/program" "-c" "bash /Users/ffff/Projects/watchrun/test/program"
+16 error node v5.7.0
+17 error npm  v3.7.5
+18 error code EPIPE
+19 error errno EPIPE
+20 error syscall write
+21 error write EPIPE
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

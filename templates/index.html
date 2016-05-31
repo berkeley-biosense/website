@@ -257,122 +257,19 @@ to shape the future of biosensing and biosignaling.<br><br></p>
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="section-heading">People</h2>
-                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
                 </div>
             </div>
 
-            <!-- faculty -->
             <div class="row">
+              {% for people in people %}
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/ppl/john2.jpg" class="img-responsive  " alt="">
-                        <h4>John Chuang</h4>
-                        <p class="text-muted">Co-Director</p>
+                        <img src="{{ people.img }}" class="img-responsive  " alt="">
+                        <h4>{{ people.name }} </h4>
+                        <p class="text-muted">{{ people.title }}</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/tapan.jpg" class="img-responsive  " alt="">
-                        <h4>Tapan Parikh</h4>
-                        <p class="text-muted">Co-Director</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/deirdre.jpg" class="img-responsive  " alt="">
-                        <h4>Deirdre Mulligan</h4>
-                        <p class="text-muted">Faculty</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/kimiko.jpg" class="img-responsive  " alt="">
-                        <h4>Kimiko Ryokai</h4>
-                        <p class="text-muted">Faculty</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/coye.jpg" class="img-responsive  " alt="">
-                        <h4>Coye Cheshire</h4>
-                        <p class="text-muted">Faculty</p>
-                    </div>
-                </div>
-                 <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/steve.png" class="img-responsive  " alt="">
-                        <h4>Steve Weber</h4>
-                        <p class="text-muted">Faculty</p>
-                    </div>
-
-            </div>
-               <!-- postdoc -->
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/thomas.jpg" class="img-responsive  " alt="">
-                        <h4>Thomas Maillart</h4>
-                        <p class="text-muted">Postdoc</p>
-                    </div>
-                </div>
-
-            <!-- students -->
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/noura.jpg" class="img-responsive  " alt="">
-                        <h4>Noura Howell</h4>
-                        <p class="text-muted">PhD Student</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/nick.jpg" class="img-responsive  " alt="">
-                        <h4>Nick Merrill</h4>
-                        <p class="text-muted">PhD Student</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/meena.jpg" class="img-responsive  " alt="">
-                        <h4>Meena Natarajan</h4>
-                        <p class="text-muted">PhD Student</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/elaine.jpg" class="img-responsive  " alt="">
-                        <h4>Elaine Sedenberg</h4>
-                        <p class="text-muted">PhD Student</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/jen.jpg" class="img-responsive  " alt="">
-                        <h4>Jen King</h4>
-                        <p class="text-muted">PhD Student</p>
-                    </div>
-                </div>
-                           <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/max.jpg" class="img-responsive  " alt="">
-                        <h4>Max Curran</h4>
-                        <p class="text-muted">PhD Student</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/rena.jpg" class="img-responsive  " alt="">
-                        <h4>Rena Coen</h4>
-                        <p class="text-muted">MIMS Student</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/ppl/jong-kai.jpg" class="img-responsive  " alt="">
-                        <h4>Jong-Kai Yang</h4>
-                        <p class="text-muted">MIMS Student</p>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
 
     </div></section>
