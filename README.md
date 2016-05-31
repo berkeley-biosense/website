@@ -2,7 +2,7 @@
 
 Lab page for [biosense.berkeley.edu](http://biosense.berkeley.edu)
 
-## Editing style
+## Changing site style style
 
 To edit the style, just edit the files in `dist/css`. Save them, and issue a PR.
 
@@ -31,6 +31,12 @@ npm run build
 ```
 
 If you want to see the site, `npm run serve`, and visit http://localhost:8000
+
+## Adding people's photos
+
+If you're adding a new photo, plop it in `people-photos/`. No need to resize it manually. Just run `bash resize-people-imaegs.sh`, and all the images will be minified using SIPS (OS X) and placed in `dist/people-photos-small/`.
+
+Images are resized to a maximum dimension (presumably height) of 640px. This is small enough to be quick-ish to load, but large enough that journalists can reasonably copy the image stuff for web content, if the need arises.
 
 ## license
 

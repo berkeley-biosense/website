@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node index.js",
     "serve": "ecstatic dist",
-    "watch": "runwatch \"**.js\" -r \"npm run build\"",
+    "watch": "runwatch \"+(projects|templates)/**\" -r \"npm run build\"",
     "dev": "npm run serve & npm run watch"
   },
   "repository": {

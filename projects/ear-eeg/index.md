@@ -1,5 +1,5 @@
-#  Brainwave authentication and brain-computer interface using in-ear EEG
+## Publications
 
-Max Curran, Nick Merrill, Jong-Kai-Yang, John Chuang
+Merrill, N. & Cheshire, C. (2015). Habits of the Heart(rate): Interpreting and acting on biosignals in risky social situations. *ACM GROUP 2016*. 
 
-to come...
+[\[PDF\]](assets/GROUP2016.pdf)

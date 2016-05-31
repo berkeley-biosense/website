@@ -1,5 +1,4 @@
-#  Heartrate sharing in risky, uncertain social interactions
+## Publications
 
-Nick Merrill, Coye Cheshire
-
-to come...
+Merrill, N. & Cheshire, C. (2015). Habits of the Heart(rate): Interpreting and acting on biosignals in risky social situations. *ACM GROUP 2016*. 
+[\[PDF\]](assets/GROUP2016.pdf)

@@ -20,8 +20,7 @@ function buildProjectPage (project) {
   execSync(`mkdir -p ${distProjectPath}`)
   // copy assets
   var projectAssetsPath = joinPath(projectPath, 'assets')
-  var distProjectAssetsPath = joinPath(distProjectPath, 'assets')
-  execSync(`cp -rf ${projectAssetsPath} ${distProjectAssetsPath}`)
+  execSync(`cp -rf ${projectAssetsPath} ${distProjectPath}`)
   // generate html from project's index.md
   var indexMdPath = joinPath(projectPath, 'index.md')
   var indexMd = fs.readFileSync(indexMdPath).toString()
