@@ -37,6 +37,7 @@ p.large {
 p.text-muted {
   color:#999;
   font-size: 14px;
+  margin-bottom:4px;
 }
 
 a,
@@ -180,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: rgb(49,48,43);
 }
 
 .navbar-default .navbar-brand {
@@ -270,7 +271,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 82px;
     padding-bottom: 0px;
 }
 
@@ -278,10 +279,13 @@ header .intro-text .intro-lead-in {
     /* margin-bottom: 25px; */
     font-size: 22px;
     line-height: 22px;
+    font-weight: 200;
+
 }
 
 header .intro-text .intro-heading {
     font-size: 60px;
+    font-weight: 200;
 }
 
 #about {
@@ -290,7 +294,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
+        padding-top: 82px;
         font-size:30px;
         font-weight: 200;
     }
@@ -312,11 +316,11 @@ header .intro-text .intro-heading {
 
 #projects {
   padding-bottom: 0;
-  padding-top: 40px;
+/*   padding-top: 40px; */
 }
 
 section {
-    padding: 25px 0;
+    padding: 0 0 40px 0;
 }
 
 section h2.section-heading {
