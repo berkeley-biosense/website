@@ -8,7 +8,8 @@
     "serve": "ecstatic dist",
     "watch": "runwatch \"+(projects|templates)/**\" -r \"npm run build\"",
     "dev": "npm run serve & npm run watch",
-    "deploy-staging": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-staging.sh"
+    "deploy-staging": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-staging.sh",
+    "deploy-prod": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-prod.sh"
   },
   "repository": {
     "type": "git",
