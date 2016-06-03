@@ -6,7 +6,7 @@ This paper explores the social meaning of clothing-based displays of biosignals.
 
 ## Publications
 
-Noura Howell. 2016. Representation & interpretation of Biosensing. *Designing Interactive Systems (DIS’16)*. 
+Noura Howell. 2016. Representation & interpretation of Biosensing. *Designing Interactive Systems Companion Publication: Doctoral Consortium*.
 [\[PDF\]](assets/DIS2016_DC_Representation_Interpretation_Biosensing.pdf)
 
 Noura Howell, Laura Devendorf, Rundong (Kevin) Tian, Tomás Vega Galvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. *Designing Interactive Systems (DIS’16)*. 

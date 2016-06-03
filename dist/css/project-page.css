@@ -15,7 +15,8 @@ h1 {
 .authors {
     font-size: 1.5em;
     color: #bbb;
-    padding: 1em 0 2em 0;
+    font-weight: 200;
+    padding: 0em 0 2em 0;
 }
 
 .back-button {
@@ -25,6 +26,10 @@ h1 {
 
 a {
     text-decoration: underline;
+}
+
+a:hover {
+    color: #7a8627;
 }
 
 img {

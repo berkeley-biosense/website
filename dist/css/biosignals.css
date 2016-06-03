@@ -3,14 +3,18 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,600italic);
 body {
+    font-family: 'Open Sans', sans;
     overflow-x: hidden;
-    background-color:#222;
+    background-color:rgb(49,48,43);
 }
 
+.row {
+    padding: 8px 0;
+}
 .service-heading {
-    margin: 15px 0;
+    /* margin: 15px 0; */
     color:#ccc;
     text-transform: none;
 }
@@ -32,6 +36,7 @@ p.large {
 
 p.text-muted {
   color:#999;
+  font-size: 14px;
 }
 
 a,
@@ -127,6 +132,10 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
+}
+
+#people {
+    background-color: rgba(215,210,199,1);
 }
 
 .btn-xl:hover,
@@ -257,7 +266,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    color: #ccc;
+    color: #dad9d9;
 }
 
 header .intro-text {
@@ -266,7 +275,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     font-size: 22px;
     line-height: 22px;
 }
@@ -282,14 +291,16 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 100px;
-      font-size:30px;
+        font-size:30px;
+        font-weight: 200;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        /* margin-bottom: 25px; */
         font-size: 20px;
-        font-style: italic;
-        line-height: 40px;
+        /* font-style: italic; */
+        /* line-height: 40px; */
+        /* padding-top: 8px; */
     }
 
     header .intro-text .intro-heading {
@@ -301,15 +312,16 @@ header .intro-text .intro-heading {
 
 #projects {
   padding-bottom: 0;
+  padding-top: 40px;
 }
 
 section {
-    padding: 100px 0;
+    padding: 25px 0;
 }
 
 section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
+    /* margin-top: 0; */
+    margin-bottom: 12px;
     font-size: 40px;
 }
 
@@ -323,13 +335,12 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        /* padding: 150px 0; */
     }
 
 }
 
 .portfolio-item {
-    margin: 2em 0 2em 0;
+    margin: 0 0 2em 0;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -341,15 +352,10 @@ section h3.section-subheading {
 
 #portfolio, h4 {
     text-transform: none;
-    padding:5px 0px;
-}
-
-#portfolio, a:hover {
-    text-decoration:none;
+    /* padding:5px 0px; */
 }
 
 #portfolio h4:hover h4:focus h4:active {
-    color: #222;
     text-decoration: underline;
 }
 
@@ -589,7 +595,7 @@ index_files
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 1px solid rgba(140,127,85,1);
     max-height: 200px;
 }
 
@@ -720,4 +726,3 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
-}
