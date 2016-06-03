@@ -22,7 +22,7 @@ module.exports = {
       url: 'projects/ear-eeg',
     },
     {
-      title: 'The social meaning of a heartrate in context',
+      title: 'The social meaning of an elevated heartrate',
       authors: [ 'Nick Merrill', 'Coye Cheshire'],
       url: 'projects/trust-your-heart',
     },

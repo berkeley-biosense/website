@@ -5,7 +5,7 @@ As of 2016, several apps allow users to share their heartrate with their friends
 
 In fact, heartrate is a potentially rich signal for designers. The sense of one’s heartbeat is an integral feature of the human experience, and its meaning in any given context is at once socially informative and highly ambiguous. 
 
-We seek to understand how and why heartrate takes on socially relevant meanings, and how these interpretations affect social attitudes like trust. We take a particular interest in how prior beliefs about particular signals (cultural associations, beliefs about the body), and how the presumed authority of data, sensors and algorithms, shape and bound the ambiguous meaning of signals like heartrate.
+We seek to understand how and why heartrate takes on socially relevant meanings, and how these interpretations affect social attitudes like trust. We take a particular interest in how prior beliefs about particular signals (cultural associations, beliefs about the body), and how the presumed authority of data, sensors and algorithms, shape the ambiguous meaning of signals like heartrate.
 
 
 ## Publications
