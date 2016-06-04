@@ -40,14 +40,14 @@ module.exports = {
       img: 'people-photos-small/deirdre.jpg',
     },
     {
-      name: 'Kimiko Ryokai',
-      title: 'Faculty',
-      img: 'people-photos-small/kimiko.jpg',
-    },
-    {
       name: 'Coye Cheshire',
       title: 'Faculty',
       img: 'people-photos-small/coye.jpg',
+    },
+    {
+      name: 'Kimiko Ryokai',
+      title: 'Faculty',
+      img: 'people-photos-small/kimiko.jpg',
     },
     {
       name: 'Steve Weber',
