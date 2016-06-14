@@ -10,6 +10,6 @@ In these projects, we use a home-rigged, single-electrode EEG placed inside the 
 
 Max C. Curran, Jong-Kai Yang, Nick Merrill, John Chuang. 2016. *IEEE Engineering in
 Medicine and Biology Society (EMBC'16)*.
-[\[PDF\]](EMBC2016.pdf)
+[\[PDF\]](assets/EMBC2016.pdf)
 
 Nick Merrill, Max C. Curran, Jong-Kai Yang, John Chuang. 2016. Classifying Mental Gestures with In-Ear EEG. *13th International Conference on Wearable and Implantable Body Sensor Networks (BSN '16)*. [\[PDF\]](assets/BSN2016.pdf)
