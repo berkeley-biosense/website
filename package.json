@@ -10,7 +10,7 @@
     "dev": "npm run serve & npm run watch",
     "deploy-staging": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-staging.sh",
     "deploy-prod": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-prod.sh",
-    "deploy": "npm run build; npm run deploy-prod"
+    "deploy": "npm run build; git commit -am "Building."; git push; npm run deploy-prod"
   },
   "repository": {
     "type": "git",
