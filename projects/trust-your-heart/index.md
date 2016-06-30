@@ -10,8 +10,8 @@ We seek to understand how and why heartrate takes on socially relevant meanings,
 
 ## Publications
 
-Nick Merrill, Coye Cheshire. 2017. Trust Your Heart: Assessing Cooperation and Trust with Biosignals in Computer-Mediated Interactions. *CSCW 2017* (Submitted).
-[\[PDF\]](assets/cscw-2017.pdf)
+Nick Merrill, Coye Cheshire. 2017. Trust Your Heart: Assessing Cooperation and Trust with Biosignals in Computer-Mediated Interactions. *Working paper*.
+[\[PDF\]](assets/trust-heart-2017.pdf)
 
 Nick Merrill, Coye Cheshire. 2015. Habits of the Heart(rate): Interpreting and acting on biosignals in risky social situations. *ACM GROUP 2016*. 
 [\[PDF\]](assets/group-2016.pdf)
