@@ -9,7 +9,8 @@
     "watch": "runwatch \"+(projects|templates)/**\" -r \"npm run build\"",
     "dev": "npm run serve & npm run watch",
     "deploy-staging": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-staging.sh",
-    "deploy-prod": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-prod.sh"
+    "deploy-prod": "ssh -t nick@ischool.berkeley.edu bash deploy-biosense-prod.sh",
+    "deploy": "npm run build; npm run deploy-prod"
   },
   "repository": {
     "type": "git",
