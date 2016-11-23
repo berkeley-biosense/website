@@ -13,3 +13,7 @@ Medicine and Biology Society (EMBC'16)*.
 [\[PDF\]](assets/EMBC2016.pdf)
 
 Nick Merrill, Max T. Curran, Jong-Kai Yang, John Chuang. 2016. Classifying Mental Gestures with In-Ear EEG. *13th International Conference on Wearable and Implantable Body Sensor Networks (BSN '16)*. [\[PDF\]](assets/BSN2016.pdf)
+
+# Press
+
+[Kron4: New brainwave reading tech from Cal Berkeley released](http://kron4.com/2016/11/18/tech-report-new-brainwave-reading-tech-from-cal-berkeley-released/)
