@@ -8,7 +8,7 @@ In these projects, we use a home-rigged, single-electrode EEG placed inside the 
 
 ## Publications
 
-Max T. Curran, Jong-Kai Yang, Nick Merrill, John Chuang. 2016. *IEEE Engineering in
+Max T. Curran, Jong-Kai Yang, Nick Merrill, John Chuang. 2016. Passthoughts Authentication with Low Cost EarEEG *IEEE Engineering in
 Medicine and Biology Society (EMBC'16)*.
 [\[PDF\]](assets/EMBC2016.pdf)
 
