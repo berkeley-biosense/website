@@ -26,6 +26,12 @@ module.exports = {
       authors: [ 'Nick Merrill', 'Coye Cheshire'],
       url: 'projects/trust-your-heart',
     },
+    {
+      title: 'Sensing',
+      authors: [ 'Richmond Wong'],
+      url: 'projects/sensing',
+      hidden: true,
+    },
   ],
 
   people: [
