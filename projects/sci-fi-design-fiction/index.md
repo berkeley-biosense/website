@@ -1,4 +1,4 @@
-This project explores how science fiction and design fiction can be used to explore possible futures and elicit values surrounding emerging sensing technologies. In particular, we focus on values and issues related to privacy. 
+This project explores how science fiction and design fiction can be used to explore possible futures and elicit values surrounding emerging sensing technologies. In particular, we focus on values and issues related to privacy, and we take inspiration from the technologies depicted in the novel *The Circle*.
 
 ![sketches of an imagined miniature camera](assets/seechange-amazon-images.png)
 *Images by Ellen Van Wyk*
