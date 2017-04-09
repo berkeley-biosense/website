@@ -36,7 +36,6 @@ module.exports = {
       title: 'Science fiction and design fiction to elicit values in sensing technologies',
       authors: [ 'Richmond Wong', 'Deirdre Mulligan', 'John Chuang'],
       url: 'projects/sci-fi-design-fiction',
-      hidden: true,
     },
   ],
 
