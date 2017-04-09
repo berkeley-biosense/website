@@ -1,7 +1,6 @@
 This project explores how science fiction and design fiction can be used to explore possible futures and elicit values surrounding emerging sensing technologies. In particular, we focus on values and issues related to privacy. 
 
 ![sketches of an imagined miniature camera](assets/seechange-amazon-images.png)
-![infographic of a fictional tracking technology for couples](assets/coupletrack.png)
 *Images by Ellen Van Wyk*
 
 ## Design Fictions
@@ -11,4 +10,8 @@ By creating design proposals that explore connections between the novel’s imag
 
 ## Publications
 Richmond Y. Wong, Ellen Van Wyk and James Pierce. (2017). Real-Fictional Entanglements: Using Science Fiction and Design Fiction to Interrogate Sensing Technologies. *In Proceedings of the ACM Conference on Designing Interactive Systems (DIS '17)*.  [\PDF\](assets/Wong_Van_Wyk_Pierce_DIS2017_Real-Fictional_Entanglements.pdf)
+
+## Additional Images
+![fictional website for a workplace tracking chip](assets/truwork-cropped.png)
+*Images by Ellen Van Wyk*
 
