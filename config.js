@@ -26,6 +26,18 @@ module.exports = {
       authors: [ 'Nick Merrill', 'Coye Cheshire'],
       url: 'projects/trust-your-heart',
     },
+    {
+      title: 'Sensing',
+      authors: [ 'Richmond Wong'],
+      url: 'projects/sensing',
+      hidden: true,
+    },
+    {
+      title: 'Science fiction and design fiction to elicit values in sensing technologies',
+      authors: [ 'Richmond Wong', 'Deirdre Mulligan', 'John Chuang'],
+      url: 'projects/sci-fi-design-fiction',
+      hidden: true,
+    },
   ],
 
   people: [
