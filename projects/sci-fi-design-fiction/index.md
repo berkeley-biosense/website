@@ -15,4 +15,4 @@ Richmond Y. Wong, Ellen Van Wyk and James Pierce. (2017). Real-Fictional Entangl
 ![fictional website for a workplace tracking chip](assets/truwork-cropped.png)
 *Images by Ellen Van Wyk*
 
-View more images in exceperts from our [\[Design Workbook\]](assets/circleWorkbookSupplementalMaterials.pdf)
+View more images in exceperts from our [Design Workbook](assets/circleWorkbookSupplementalMaterials.pdf)
