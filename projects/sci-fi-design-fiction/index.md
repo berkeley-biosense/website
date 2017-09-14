@@ -11,6 +11,10 @@ By creating design proposals that explore connections between the novel’s imag
 ## Publications
 Richmond Y. Wong, Ellen Van Wyk and James Pierce. (2017). Real-Fictional Entanglements: Using Science Fiction and Design Fiction to Interrogate Sensing Technologies. *In Proceedings of the ACM Conference on Designing Interactive Systems (DIS '17)*.  [\[PDF\]](assets/Wong_Van_Wyk_Pierce_DIS2017_Real-Fictional_Entanglements.pdf) [\[Design Workbook Excerpts\]](assets/circleWorkbookSupplementalMaterials.pdf)
 
+Richmond Y. Wong, Deirdre K, Mulligan, Ellen Van Wyk, James Pierce and John Chuang. (2017). Eliciting Values Reflections by Engaging Privacy Futures Using Design Workbooks. *Proc. ACM Hum.-Comput. Interact.* 1, 2, Article 111 (November 2017), 27 pages. [\[PDF\]](assets/wong-et-al-2017-eliciting-values-reflections-workbooks.pdf) 
+
+Richmond Y. Wong, Deirdre K. Mulligan, and John Chuang. (2017). Using science fiction texts to surface user reflections on privacy. In *Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers (UbiComp '17)*. 213-216. [\[PDF\]](assets/Wong-mulligan-chuang-2017-science-fiction-privacy-reflections.pdf) [\[Poster (PDF)\]](assets/Wong-et-al-2017-ubicomp-poster.pdf)
+
 ## Additional Images
 ![fictional website for a workplace tracking chip](assets/truwork-cropped.png)
 *Images by Ellen Van Wyk*

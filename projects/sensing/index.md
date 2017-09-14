@@ -1,6 +1,8 @@
 # From the Future...Sensing Technologies That You Can Buy and Own
 If you recieved a copy of our design booklet and would like to provide feedback, please fill out our [survey and feedback form](https://berkeley.qualtrics.com/jfe/form/SV_39mxSvlH4gQbImp)!
 
+You can also read research publications related to this booklet on our [project page](../sci-fi-design-fiction/)
+
 ![cover of our booklet](assets/booklet-cover.png)
 
 ## About the Project
